@@ -1,10 +1,10 @@
-# 🚀 Logix - MyLang to C++ Translator
+# 🚀 Logix-Complied Programming Language 
 
 [![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/yourusername/logix)
 [![Python](https://img.shields.io/badge/python-3.7+-green.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
-**Logix** is an innovative programming language translator that converts **MyLang** code into compilable **C++** code using advanced AI-powered translation. It bridges the gap between a simple, intuitive programming language and powerful C++ compilation.
+**Logix** is an innovative programming language translator that converts **Logix** code into compilable **C++** code using advanced AI-powered translation. It bridges the gap between a simple, intuitive programming language and powerful C++ compilation.**Logix is as strong as any other programing language.**
 
 ## 🌟 Features
 
