@@ -8,7 +8,7 @@ import sys  # To get command-line arguments
 import re  # For better text cleaning with regex
 
 # --- IMPORTANT: Replace with your actual OpenRouter API key ---
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "<YOUR_API_KEY>"
 OPENROUTER_SITE_URL = "YOUR_SITE_URL_HERE"  # Optional
 OPENROUTER_SITE_NAME = "YOUR_SITE_NAME_HERE"  # Optional
 # ---
