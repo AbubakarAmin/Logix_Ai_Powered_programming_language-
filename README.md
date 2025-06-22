@@ -12,7 +12,7 @@
 - **Complete C++ Output**: Generates fully compilable C++ programs
 - **Automatic Compilation**: Compiles translated code into executable files
 - **Cross-Platform**: Works on Windows, macOS, and Linux
-- **Easy-to-Learn Syntax**: MyLang provides a simplified programming experience
+- **Easy-to-Learn Syntax**: Logix provides a simplified programming experience
 - **Type Inference**: Automatically determines data types from context
 
 ## 📦 Installation
@@ -50,8 +50,8 @@
 
 ## 🎯 Quick Start
 
-1. **Create a MyLang file** (`example.txt`):
-   ```mylang
+1. **Create a Logix file** (`example.txt`):
+   ```logix
    acha name = "World"
    bol("Hello, " + name)
    
@@ -71,15 +71,15 @@
    ./example
    ```
 
-## 📚 MyLang Language Documentation
+## 📚 Logix Language Documentation
 
 ### Overview
 
-MyLang is a simple, intuitive programming language designed for beginners and rapid prototyping. It features dynamic typing, clear syntax, and automatic translation to C++.
+Logix is a simple, intuitive programming language designed for beginners and rapid prototyping. It features dynamic typing, clear syntax, and automatic translation to C++.
 
 ### Data Types
 
-| MyLang Type | C++ Equivalent | Example |
+| logix Type | C++ Equivalent | Example |
 |-------------|----------------|---------|
 | `int` | `int` | `10`, `-5`, `0` |
 | `float` | `double` | `3.14`, `-0.5`, `2.0` |
@@ -91,7 +91,7 @@ MyLang is a simple, intuitive programming language designed for beginners and ra
 ### Variables
 
 **Declaration:** Use the `acha` keyword
-```mylang
+```logix
 acha name = "John"
 acha age = 25
 acha is_active = true
@@ -103,7 +103,7 @@ acha scores = [85, 92, 78]
 ### Output
 
 **Print to console:** Use the `bol()` function
-```mylang
+```logix
 bol("Hello, World!")
 bol(42)
 bol("The answer is: " + 42)
@@ -112,7 +112,7 @@ bol("The answer is: " + 42)
 ### Input
 
 **Read from console:** Use the `pusho()` function
-```mylang
+```logix
 acha user_input = pusho("Enter your name: ")
 acha age = pusho("Enter your age: ")
 ```
@@ -120,7 +120,7 @@ acha age = pusho("Enter your age: ")
 ### Control Flow
 
 #### Conditionals
-```mylang
+```logix
 ager(age >= 18) {
     bol("You are an adult")
 }
@@ -130,7 +130,7 @@ nahi to {
 ```
 
 #### Loops
-```mylang
+```logix
 acha i = 0
 jabtak(i < 5) {
     bol("Count: " + i)
@@ -141,7 +141,7 @@ jabtak(i < 5) {
 ### Functions
 
 **Function Declaration:** Use the `mazdoor` keyword
-```mylang
+```logix
 mazdoor greet(acha name) {
     bol("Hello, " + name)
     wapis "Greeting sent to " + name
@@ -154,14 +154,14 @@ mazdoor calculate_sum(acha a, acha b) {
 ```
 
 **Return Values:** Use the `wapis` keyword
-```mylang
+```logix
 mazdoor get_user_info() {
     wapis "John Doe", 30, true
 }
 ```
 
 **Function Calls:**
-```mylang
+```logix
 acha message = greet("Alice")
 acha sum = calculate_sum(10, 20)
 acha name, age, active = get_user_info()
@@ -192,7 +192,7 @@ acha name, age, active = get_user_info()
 ## 🔧 Advanced Examples
 
 ### Example 1: Simple Calculator
-```mylang
+```logix
 mazdoor calculator() {
     acha num1 = pusho("Enter first number: ")
     acha num2 = pusho("Enter second number: ")
@@ -220,7 +220,7 @@ bol("Result: " + result)
 ```
 
 ### Example 2: List Operations
-```mylang
+```logix
 acha numbers = [1, 2, 3, 4, 5]
 acha sum = 0
 acha i = 0
@@ -235,7 +235,7 @@ bol("Average: " + (sum / 5))
 ```
 
 ### Example 3: Dictionary Usage
-```mylang
+```logix
 acha person = {"name": "Alice", "age": 25, "city": "New York"}
 bol("Name: " + person["name"])
 bol("Age: " + person["age"])
@@ -246,7 +246,7 @@ bol("City: " + person["city"])
 
 ### Translation Process
 
-1. **Code Reading**: Reads MyLang code from input file
+1. **Code Reading**: Reads logix code from input file
 2. **AI Translation**: Sends code to OpenRouter API for C++ conversion
 3. **Code Cleaning**: Extracts and cleans the generated C++ code
 4. **File Generation**: Saves cleaned C++ code to temporary file
