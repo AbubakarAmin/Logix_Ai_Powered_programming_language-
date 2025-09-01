@@ -297,14 +297,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **PyInstaller**: For enabling easy distribution
 - **C++ Community**: For the robust compilation ecosystem
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/logix/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/logix/discussions)
-- **Email**: your-email@example.com
-
 ---
 
-**Made with ❤️ by the Logix Team**
+**Made with ❤️ by the Logix Team(only me :( )** 
 
 *Transform your ideas into code with the power of AI!* 
